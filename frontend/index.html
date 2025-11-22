@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced AES Encryption Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2> Advanced AES Encryption Tool</h2>
+
+    <div class="section">
+        <h3>Encrypt Message</h3>
+        <textarea id="message" placeholder="Enter text to encrypt..."></textarea>
+        <input type="password" id="password" placeholder="Enter password">
+        <button onclick="encryptText()">Encrypt</button>
+        <p class="output" id="result"></p>
+    </div>
+
+    <div class="section">
+        <h3>Decrypt Message</h3>
+        <textarea id="encrypted" placeholder="Enter encrypted text..."></textarea>
+        <input type="password" id="password2" placeholder="Enter password">
+        <button onclick="decryptText()">Decrypt</button>
+        <p class="output" id="result2"></p>
+    </div>
+</div>
+
+<script src="frontend.js"></script>
+</body>
+</html>
